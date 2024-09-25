@@ -1,0 +1,64 @@
+.header,
+.header_dark {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 25px 10px;
+}
+
+.header {
+  background-color: rgba(229, 229, 229, 0.682);
+}
+
+.header_dark {
+  background-color: rgba(92, 92, 92, 0.682);
+}
+
+.header_nav,
+.header_nav_dark {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.inactive_dark,
+.active_dark,
+.inactive,
+.active {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+.inactive,
+.active {
+  color: black;
+}
+
+.inactive_dark,
+.active_dark {
+  color: beige;
+}
+
+.active,
+.active_dark {
+  text-decoration: underline;
+}
+
+.select {
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+  background-color: transparent;
+  color: inherit;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.select:focus {
+  outline: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}

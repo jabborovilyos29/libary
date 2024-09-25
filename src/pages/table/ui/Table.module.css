@@ -1,0 +1,12 @@
+.tbody input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.tbody_dark input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  color: aliceblue;
+}

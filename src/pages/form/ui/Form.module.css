@@ -1,0 +1,51 @@
+.form_article {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
+  margin: 15px 10px;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: center;
+  gap: 10px;
+  width: 100%;
+  max-width: 460px;
+}
+
+.submit_button {
+  border: none;
+  background-color: transparent;
+  border: 2px solid #313131;
+  border-radius: 3px;
+  padding: 10px 25px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.submit_button:hover {
+  border: 2px solid dodgerblue;
+}
+
+.button_group {
+  width: 100%;
+  margin: 12px 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.end_content_button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: transparent;
+  border: 2px solid #313131;
+  cursor: pointer;
+}

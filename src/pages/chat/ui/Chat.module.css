@@ -1,0 +1,19 @@
+.end_content_button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color: transparent;
+  border: 2px solid #313131;
+  cursor: pointer;
+}
+
+.chatbox{
+    padding: 24px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: end;
+    border: 2px solid dodgerblue;
+    margin: 10px;
+}
